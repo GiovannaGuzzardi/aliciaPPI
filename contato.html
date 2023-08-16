@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+</head>
+<body style="background-color: black; color: white;">
+    <header>
+        <center><h1>Entre em Contato</h1></center>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Experience.html">Experiência</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="logo-text-container">
+                <img class="logo" src="envio.png" alt="Logo"width="50" height="50"><h2>Formulário de Contato</h2> 
+            </div>
+            
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone"><br>
+                
+                <label for="recrutador">É um recrutador?</label>
+                <select id="recrutador" name="recrutador">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select><br>
+                
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <a href="index.html">Voltar à Página Principal</a>
+        </section>
+    </main>
+   
+</body>
+</html>
+
